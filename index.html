@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Monoton"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Shrikhand"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Tip Calculator</h1>
+
+      <div id="calc">
+        <form>
+          <input type="text" name="amount" placeholder="Insert the Amount" />
+          <br />
+        </form>
+        <select>
+          <option value="slevel">Your Satisfaction Level</option>
+          <option value="excellent">Excellent: tip 30%</option>
+          <option value="verygood">Very Good: tip 20%</option>
+          <option value="good">Good: tip 15%</option>
+          <option value="ok">Ok: tip 10%</option>
+          <option value="bad">Bad: tip 5%</option>
+          <option value="verybad">Very Bad: tip 0%</option> </select
+        ><br />
+        <button id="calcbutton">Calculate</button>
+      </div>
+
+      <div id="result">
+        <p id="amount"></p>
+        <p id="tip"></p>
+        <p id="total"></p>
+        <button id="newTip">New Tip</button>
+      </div>
+    </main>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
